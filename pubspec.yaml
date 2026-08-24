@@ -1,0 +1,41 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  video_player: ^2.3.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/gif/
+
+  fonts:
+    - family: Ravie
+      fonts:
+        - asset: assets/RAVIE.ttf
+    - family: Arial
+      fonts:
+        - asset: assets/ARLRDBD.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  image_path: "assets/icon.png"
