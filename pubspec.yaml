@@ -28,10 +28,10 @@ flutter:
   fonts:
     - family: Ravie
       fonts:
-        - asset: assets/RAVIE.ttf
+        - asset: assets/RAVIE.TTF
     - family: Arial
       fonts:
-        - asset: assets/ARLRDBD.ttf
+        - asset: assets/ARLRDBD.TTF
 
 flutter_launcher_icons:
   android: true
