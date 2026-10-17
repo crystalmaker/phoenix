@@ -166,7 +166,7 @@ class HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateMi
       gifWidth = 30;
       // Gif normale con fiamma
     }
-    else if (periodo == "halooween") {
+    else if (periodo == "halloween") {
       sfondo_1 = "assets/sfondo_halloween.png";
       sfondo_2 = "assets/sfondo_halloween2.png";
       gifHeight = 100;
